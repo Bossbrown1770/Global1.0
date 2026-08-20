@@ -1,0 +1,10 @@
+{
+  "name": "global-logistics",
+  "version": "1.0.0",
+  "description": "Global Logistics Tracking Website",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {}
+}
