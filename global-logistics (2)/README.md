@@ -92,11 +92,6 @@ npm start
 vercel dev
 ```
 
-Visit `http://localhost:3000`
-
-### 5. Admin Access
-
-The user with email `frankroony474@gmail.com` is automatically assigned admin role on signup. You can also promote any user to admin via the admin dashboard.
 
 ## Technologies
 
