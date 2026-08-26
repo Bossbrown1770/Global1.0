@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Global Logistics Tracking Website",
   "scripts": {
+        "build": "node build-config.js",
+    "start": "node build-config.js && serve .",
     "start": "node server.js"
   },
   "dependencies": {
+    "groq-sdk": "^0.3.0",
+    "@supabase/supabase-js": "^2.38.0",
     "express": "^4.18.2",
     "dotenv": "^16.3.1"
   }
+    "devDependencies": {}
 }
