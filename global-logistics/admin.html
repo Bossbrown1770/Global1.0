@@ -261,5 +261,6 @@
       try { const { error } = await supabaseClient.from('profiles').update({ role: 'admin' }).eq('id', id); if (!error) loadUsers(); } catch (err) {}
     }
   </script>
+  <script src="/config.js"></script>
 </body>
 </html>
